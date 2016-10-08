@@ -5,7 +5,7 @@ if [ -f "/var/v8_provisioned" ]; then
   exit 0
 fi
 
-APPHOME=/home/vagrant/laravel-seed
+APPHOME=/home/vagrant/react-admin
 if [ -n "$1" ]; then
   APPHOME=$1
 fi
